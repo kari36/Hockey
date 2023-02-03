@@ -142,3 +142,6 @@ footer{
     display: flex;
     justify-content: center;
 }
+.list2{
+    list-style: lower-latin;
+}
