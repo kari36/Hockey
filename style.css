@@ -55,8 +55,8 @@ main{
     align-items: center;
 }
 .container2 {
-    padding: 20vh
-    
+    padding: 20vh;
+   
 }
 h2 {
     display: flex;
@@ -64,6 +64,8 @@ h2 {
     color: aliceblue;
     background-color: black;
     border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
 }
  
     
@@ -144,4 +146,39 @@ footer{
 }
 .list2{
     list-style: lower-latin;
+}
+
+.h2-{
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 5px;
+
+    
+}
+.italic{
+    font-style: italic;
+}
+.subrayado{
+ text-decoration: underline;
+}
+table,
+tr,
+th,
+td {
+    border: 1px solid white;
+    padding: 3vh;
+    margin: 3vw;
+}
+
+table {
+    border-style:hidden;
+}
+.table {
+    display: flex;
+    justify-content: center;
+    margin: 5vh;
+
 }
