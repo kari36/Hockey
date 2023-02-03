@@ -121,16 +121,19 @@ padding: 5vh;
 color: white;
 background-color: black;
 box-shadow: 10px 5px 5px white;
+border-radius: 5px;
+display: inline-block;
 }
 
 .mailto a {
     text-decoration: none;
-    color: white;
+    color: burlywood;
+    display: inline-block;
 }
 
 .mailto a:hover {
-    color: white;
-    background-color: crimson;
+    color: aliceblue ;
+    background-color: orangered;
 }
 footer{
     width: 100%;
