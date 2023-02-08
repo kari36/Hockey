@@ -30,7 +30,7 @@
     <main>
         <div class="container2"> 
             <h2>Registration</h2>
-            <form id="games" action="./show_data.html">
+            <form id="games" action="./show_data.txt">
                 <fieldset class="form1">
                     <legend>Registration Form</legend>
                     <label>
@@ -92,17 +92,27 @@
                 <h3>Which elementary school do you live near?</h3>
             
                 <fieldset>
-                    <legend>Closet School</legend>
+                    <legend>Closest School</legend>
             
-                    <select name="school" id="school">
-                        <option value="" disabled>Choose an option</option>
-                        <option value="AJ Katzenmaier">AJ Katzenmaier</option>
-                        <option value="Greenbay">Greenbay</option>
-                        <option value="Howard A Yeager">Howard A Yeager</option>
-                        <option value="Marjorie P Hart">Marjorie P Hart</option>
-                        <option value="North Elementary">North Elementary</option>
-                        <option value="South Elementary">South Elementary</option>
-                    </select>
+                    <label for="school1">
+                        <input type="checkbox"
+                        id="school1" name="school1" value="AJ Katzenmaier">AJ Katzenmaier
+                    </label> 
+                    <label for="school2">
+                        <input type="checkbox" id="school2" name="school2" value="Greenbay">Greenbay
+                    </label>
+                    <label for="school3">
+                        <input type="checkbox" id="school3" name="school3" value="Howard A Yeager">Howard A Yeager
+                    </label>
+                    <label for="school4">
+                        <input type="checkbox" id="school4" name="school4" value="Marjorie P Hart">Marjorie P Hart
+                    </label>
+                    <label for="school5">
+                        <input type="checkbox" id="school5" name="school5" value="North Elementary">North Elementary
+                    </label>
+                    <label for="school6">
+                        <input type="checkbox" id="school6" name="school6" value="South Elementary">South Elementary
+                    </label>
                 </fieldset>
             
                 <h3>What position(s) do you normally play? (check all that apply)</h3>
@@ -160,13 +170,13 @@
                         cancellation policy and agree to its terms.
                     </p>
                     <fieldset>
-                        <legend>Enter your Name and Date</legend>
+                        
                         <label for="name-final">
-                            Enter your Name:
+                            Parent/Guardian Signature:
                             <input type="text" id="name-final" name="name-final">
                         </label>
                         <label for="date-final">
-                            Enter Date:
+                            Date:
                             <input type="text" id="date-final" name="date-final">
                         </label>
                     </fieldset>
