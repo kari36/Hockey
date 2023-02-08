@@ -56,6 +56,8 @@ main{
 }
 .container2 {
     padding: 20vh;
+    display: flex;
+    flex-direction: column;
    
 }
 h2 {
@@ -164,21 +166,23 @@ footer{
 .subrayado{
  text-decoration: underline;
 }
-table,
-tr,
-th,
-td {
-    border: 1px solid white;
-    padding: 3vh;
-    margin: 3vw;
+table{
+    width: 600px;
+    height: 450px;
+    margin: 20px;
+    
 }
-
-table {
-    border-style:hidden;
-}
-.table {
-    display: flex;
+.justifycenter{
     justify-content: center;
-    margin: 5vh;
-
+}
+thead th{
+    text-align: center;
+    padding: 20px;
+    }
+tbody td{
+    text-align: center;
+    border: 1px solid white;
+   }
+.p-inline{
+    display: inline;
 }
